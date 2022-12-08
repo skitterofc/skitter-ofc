@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://images2.alphacoders.com/722/72270.jpg");
+}
+
+header{
+    min-height: 150px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    color: #ee1004d0;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px;
+    font-size: 2em;
+}
+
+nav{
+    background-color: #fe0a0e77;
+    padding: 10px;
+    box-shadow: 0px 4px 9px rgba(191, 81, 81, 0.36);
+    color: white;
+}
+
+nav > a{
+    color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+nav > a:hover{
+    background-color: ;
+    text-decoration: underline;
+    color: rgb(255, 9, 9);
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.398);
+}
+
+nav abbr{
+    text-decoration: none;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.622);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 1px 6px rgba(255, 0, 0, 0.533);
+    color: white;
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article h2{
+    text-align: center;
+    padding: 3px;
+}
+
+article > h2.link{
+    padding: 30px;
+}
+
+article h3{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+article p{
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article ol{
+    padding: 5px;
+    list-style-type: '♞\00A0\00A0';
+    list-style-position: inside;
+}
+
+article ul{
+    list-style-position: inside;
+    padding: 5px;
+    list-style-type: '♞\00A0\00A0';
+}
+
+article a {
+    text-decoration: none;
+    color: rgb(255, 27, 27);
+}
+article  a:hover{
+    color: rgb(156, 8, 8);
+    text-decoration: underline;
+}
+
+article ul a {
+    text-decoration: none;
+    color: rgb(255, 27, 27);
+}
+
+article ul a:hover{
+    color: rgb(156, 8, 8);
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
